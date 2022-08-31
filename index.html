@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Linkedin!</title>
+</head>
+
+<body>
+    <div style="background-color: #fff;" class="fixed-top">
+        <!--Navbar - Start-->
+
+        <div class="container" style="background-color: #fff;">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"><svg style="color: blue;" xmlns="http://www.w3.org/2000/svg"
+                                width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg></a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div id="search">
+                                    <a class="nav-link" href="#"><i class="fas fa-search"></i><input
+                                            style="border: none;"
+                                            class="search-global-typeahead__input always-show-placeholder"
+                                            placeholder="Arama Yap" role="combobox" aria-autocomplete="list"
+                                            aria-label="Arama Yap" aria-activedescendant="" aria-expanded="false"
+                                            type="text"></a>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active mr-2">
+                                    <a class="nav-link" href="#"
+                                        style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+                                        </svg>
+                                        <span class="sr-only">(current)</span>
+                                        <span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            Ana Sayfa
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link"
+                                        style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                                        href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                            <path fill-rule="evenodd"
+                                                d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
+                                            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                                        </svg>
+                                        <span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            Ağım
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-2 ">
+                                    <a style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                                        class="
+                                nav-link disabled"><i class="fas fa-briefcase"></i><span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            İş İlanları
+                                        </span></a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                                        class="
+                                nav-link disabled"><i class="fas fa-comment-dots"></i><span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            Mesajlaşma
+                                        </span></a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                                        class="
+                                nav-link disabled"><i class="fas fa-bell"></i><span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            Bildirimler
+                                        </span></a>
+                                </li>
+                                <li class="nav-item dropdown mr-1">
+                                    <a class="nav-link dropdown-toggle"
+                                        style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                                        class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                        aria-expanded="false"><i class="fas fa-user-circle"></i>
+                                        <span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            Ben
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <div class="card">
+                                            <div class="card-header dropdown-item">
+                                                <span>Oğuz Gül</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown ml-2">
+
+                                    <a class="nav-link dropdown-toggle border-left"
+                                        style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                                        class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                        aria-expanded="false"><i class="fas fa-th"></i></i>
+                                        <span class="t-12 break-words block t-black--light t-normal
+                                global-nav__primary-link-text" title="Ana Sayfa">
+                                            İş
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <div class="card">
+                                            <div class="card-header dropdown-item">
+                                                <span>Oğuz Gül</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item ml-2 mt-2">
+
+                                    <small><a href="#"
+                                            style="max-width: 125px; color: #915907; font-weight: 400; text-align: center; cursor: pointer; display: flex; flex-direction: column; justify-content: center; position: relative; text-decoration: none;">Premium'u
+                                            Ücretsiz
+                                            Deneyin</a></small>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Navbar - End-->
+    <div style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 mt-3">
+                    <div class="card mt-4" style="border-radius: 10px; z-index: 1;">
+                        <div class="card-header" style=" width: 250px; height: 70px;">
+                            <a href="">
+                                <div class="col-12"><img
+                                        style="margin-left: 36%; margin-top: 25px; display: flex; flex-direction: column; justify-content: center; align-items: center; "
+                                        width="70" height="70" class="rounded-circle" src="https://picsum.photos/200"
+                                        alt=""></div>
+                                <br>
+                                <br>
+                        </div>
+                        <div class="body mt-5">
+                            <div style="color: black;">
+                                <center>Oğuz Gül, Hoş Geldiniz!</center>
+                            </div>
+                        </div>
+
+                        </a>
+                        <a href="#">
+                            <div>
+                                <center><span>Fotoğraf Ekle</span></center>
+                            </div>
+                        </a>
+                        <hr>
+                        <ul class="row mt-1" style="list-style-type: none;">
+                            <li>
+                                <a href="">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <div class="text-left" style="width: 200px;">
+                                            <span class="text-muted"><small>Bağlantı</small></span> <span
+                                                style="float: right; ">16</span>
+                                            <br>
+                                            <span style="color: black;"><small>İletişim Ağını Genişletin</small></span>
+                                            <br>
+                                            <span class="text-muted"><small>Davetiye</small></span>
+                                            <span style="float: right; ">1</span>
+                                        </div>
+
+                                    </div>
+
+                                </a>
+                                <hr>
+                            </li>
+                        </ul>
+                        <a href="#" style="margin-bottom: 5px;">
+                            <h9 class="text-muted text-light ml-4"><small>Özel araç ve içgörülere erişin</small></h9>
+                            <span class="d-flex align-items-center">
+                                <li-icon aria-hidden="true" type="premium-app-icon"
+                                    class="feed-identity-module__premium-icon ml-4 flex-shrink-zero"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" class="mercado-match" width="24" height="24"
+                                        focusable="false">
+                                        <path
+                                            d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z"
+                                            fill="#f8c77e"></path>
+                                        <path
+                                            d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z"
+                                            fill="#e7a33e"></path>
+                                    </svg></li-icon>
+                                <span style="color: black;"><small>Premium’u ücretsiz deneyin</small></span>
+
+                            </span>
+                        </a>
+                        <hr>
+                        <a href="#" class="ml-4" style="color: black;">
+                            <span class="t-12 t-black t-bold v-align-middle block">
+                                <li-icon aria-hidden="true" type="ribbon-filled-icon"
+                                    class="t-black--light v-align-middle mr1" size="small"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                        data-supported-dps="16x16" fill="currentColor" width="16" height="16"
+                                        focusable="false">
+                                        <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
+                                    </svg></li-icon>
+                                <small>Ögelerim</small>
+                            </span>
+                        </a>
+                    </div> <!-- -->
+
+                    <div class="card mt-3" style="border-radius: 10px;">
+
+                        <ul class="mt-3" style="list-style: none; margin-right: 200px; width: 250px;">
+                            <a href="#">
+                                <li style="margin-right: 20px;"><small>Gruplar</small></li>
+                            </a>
+                            <a href="#">
+                                <li><small>Etkinlikler</small> <i style="float: right; color: black;"
+                                        class="fas fa-plus mr-1"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><small>Takip Edilen Hashtagler</small></li>
+                            </a>
+                        </ul>
+                        <hr>
+                        <center>
+                            <h8 class="text-muted mb-5"><small>Daha Fazla Keşfet</small></h8>
+                        </center>
+
+                    </div>
+
+
+                </div>
+                <div class="col-6 mt-3">
+                    <div class="card mt-4" style="border-radius: 15px;">
+                        <div class="d-flex align-items-center mt-2 ml-2"><a href="#"><i
+                                    class="fas fa-user-circle float-left fa-4x"></i></a>
+                            <button style="width: 420px; height: 50px;" type="button"
+                                class="btn btn-outline-secondary ml-2 mr-2 rounded-pill"><small
+                                    style="float: left;">Gönderi
+                                    Başlat</small></button>
+                        </div>
+                        <div style="display: flex;  justify-content: space-around; border: none; padding-bottom: 4px;">
+                            <button type="button" class="btn btn-light mt-1">
+                                <i style="color: blue;" class="fas fa-image fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Fotoğraf</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1" style=" float: left;">
+                                <i class="fab fa-youtube fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Video</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1">
+                                <i style="color: blue;" class="fas fa-calendar-week fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Etkinlik</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1">
+                                <i style="color: blue;" class="fas fa-book fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Yazı Yaz</span>
+                            </button>
+                        </div>
+                        <span></span>
+
+                    </div>
+                    <div class="mt-2"
+                        style="display: flex;  justify-content: space-around; border: none; padding-bottom: 4px;">
+
+                        <hr class="flex-grow-1 mr-2">
+                        <div class="display-flex">
+                            <span class=" t-black--light t-normal">
+                                <small>Sıralama ölçütü:</small>
+                            </span>
+                            <span class="t-12 t-black t-bold mh1">
+                                En Önemli
+                            </span>
+                            <li-icon type="caret-filled-down-icon" class="t-black" size="small" role="img"
+                                aria-label="Sıralama türü açılır menü düğmesi"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor"
+                                    class="mercado-match" width="16" height="16" focusable="false">
+                                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                                </svg></li-icon>
+                        </div>
+                        <!---->
+                    </div>
+
+                    <div class="card mt-4" style="border-radius: 15px;">
+                        <div class="d-flex align-items-center mt-2 ml-2 "><a href="#"><img class="rounded-circle"
+                                    width="48" src="img/alihan.jpg" style="float: left;" alt=""></a>
+                            <div class="ml-3">
+                                <h7>Alihan Değirmenciler</h7>
+                                <h6><small class="text-muted">Jr.Front-End Developer</small></h6>
+                                <h7><small class="text-muted">8 saat <i class="fas fa-globe-americas"></i></small></h7>
+                            </div>
+                            <button style="margin-left: 40%;" type="button" class="btn btn-link"><i
+                                    class="fas fa-plus mr-1"></i>Takip Et</button>
+                        </div>
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://picsum.photos/100" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
+                        </div>
+                        <hr>
+                        <div style="display: flex;  justify-content: space-around; border: none;">
+                            <button type="button" class="btn btn-light mt-1">
+                                <i class="fas fa-thumbs-up fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Beğen</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1" style=" float: left;">
+                                <i class="far fa-comment-dots fa-lg text-muted"></i><span class="text-muted ml-2">Yorum
+                                    Yap</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1">
+                                <i class="fas fa-directions fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Paylaş</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1">
+                                <i class=" fas fa-paper-plane fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Gönder</span>
+                            </button>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 ml-4 mb-3"><a href="#"><i
+                                    class="fas fa-user-circle float-left fa-2x"></i></a>
+                            <button style="width: 460px;" type="button"
+                                class="btn btn-outline-secondary ml-2 mr-2 rounded-pill"><small
+                                    style="float: left;">Yorum Yaz...</small><i style="margin-left: 68%;"
+                                    class="far fa-smile"></i><i class="fas fa-image ml-2"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="card mt-4" style="border-radius: 15px;">
+                        <div class="d-flex align-items-center mt-2 ml-2 "><a href="#"><img class="rounded-circle"
+                                    width="48" src="img/alihan.jpg" style="float: left;" alt=""></a>
+                            <div class="ml-3">
+                                <h7>Alihan Değirmenciler</h7>
+                                <h6><small class="text-muted">Jr.Front-End Developer</small></h6>
+                                <h7><small class="text-muted">8 saat <i class="fas fa-globe-americas"></i></small></h7>
+                            </div>
+                            <button style="margin-left: 40%;" type="button" class="btn btn-link"><i
+                                    class="fas fa-plus mr-1"></i>Takip Et</button>
+                        </div>
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://picsum.photos/100" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
+                        </div>
+                        <hr>
+                        <div style="display: flex;  justify-content: space-around; border: none;">
+                            <button type="button" class="btn btn-light mt-1">
+                                <i class="fas fa-thumbs-up fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Beğen</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1" style=" float: left;">
+                                <i class="far fa-comment-dots fa-lg text-muted"></i><span class="text-muted ml-2">Yorum
+                                    Yap</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1">
+                                <i class="fas fa-directions fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Paylaş</span>
+                            </button>
+                            <button type="button" class="btn btn-light mt-1">
+                                <i class=" fas fa-paper-plane fa-lg text-muted"></i><span
+                                    class="text-muted ml-2">Gönder</span>
+                            </button>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 ml-4 mb-3"><a href="#"><i
+                                    class="fas fa-user-circle float-left fa-2x"></i></a>
+                            <button style="width: 460px;" type="button"
+                                class="btn btn-outline-secondary ml-2 mr-2 rounded-pill"><small
+                                    style="float: left;">Yorum Yaz...</small><i style="margin-left: 68%;"
+                                    class="far fa-smile"></i><i class="fas fa-image ml-2"></i></button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="col-3">sdfdsfsdfsdf</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
